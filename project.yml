@@ -1,0 +1,36 @@
+_prefs: 
+  baselayer: ''
+  mapid: zorrax.d39cc4e8
+  saveCenter: false
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85
+  - 180
+  - 85
+center: 
+  - 0
+  - 0
+  - 3
+description: ''
+format: "png8:m=h:c=64"
+interactivity_layer: BCNSPP
+layers: null
+maxzoom: 19
+minzoom: 0
+name: Streets Classic
+source: "mapbox:///mapbox.satellite,mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,zorrax.4d3a6052,zorrax.652cd5eb,zorrax.f9b0492c,zorrax.2a983835"
+styles: 
+  - vars.mss
+  - bg.mss
+  - road.mss
+  - label.mss
+  - poi_classic.mss
+  - zorrax.mss
+  - ADMARE.mss
+  - BCNLAT.mss
+  - BCNSPP.mss
+template: "<strong>{{AGEN}}</strong>"
